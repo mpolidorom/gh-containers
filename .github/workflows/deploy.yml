@@ -16,8 +16,10 @@ jobs:
       image: node:16
       #env: 
     env:
-      MONGODB_CONNECTION_PROTOCOL: mongodb+srv
-      MONGODB_CLUSTER_ADDRESS: cluster0.0ytulxr.mongodb.net
+      #MONGODB_CONNECTION_PROTOCOL: mongodb+srv
+      #MONGODB_CLUSTER_ADDRESS: cluster0.0ytulxr.mongodb.net
+      MONGODB_CONNECTION_PROTOCOL: mongodb
+      MONGODB_CLUSTER_ADDRESS: mongodb
       MONGODB_USERNAME: root
       MONGODB_PASSWORD: example
       #MONGODB_USERNAME: ${{ secrets.MONGODB_USERNAME }}
